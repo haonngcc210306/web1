@@ -6,10 +6,10 @@ class connect{
     public $password;
 
     public function __construct(){
-        $this->server ="localhost";
-        $this->username = "root";
-        $this->password = "";
-        $this->dbName="shopcloud";
+        $this->server ="jtb9ia3h1pgevwb1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+        $this->username = "lss2o3fjo4fqphgx";
+        $this->password = "azghj3xwx7vvugf1";
+        $this->dbName="	vbfv3tifavmzrqq8";
     }
     //option 1: mysqli
     function connectToMySQL():mysqli{
